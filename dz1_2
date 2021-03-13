@@ -1,0 +1,6 @@
+seconds = int(input("Введи время в секундах"))
+hours = seconds // 3600
+rest = seconds % 3600
+minutes = rest // 60
+sec = rest % 60
+print(f"Сейчас {hours}:{minutes}:{sec}")
