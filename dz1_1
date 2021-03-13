@@ -1,0 +1,4 @@
+name = input("Введите Ваше имя >>>")
+age = int(input("Сколько Вам лет?"))
+salary = float(input("Сколько Вы зарабатываете?"))
+print(f"Привет {name} Тебе {age} лет! и твоя зарплата {salary}")
