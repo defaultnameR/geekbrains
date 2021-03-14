@@ -1,0 +1,8 @@
+a = int(input("Результат первого дня "))
+b = int(input("Результат для поиска "))
+c = 1
+while b > a:
+    a = a + a * 0.1
+    c = c + 1
+else:
+    print(f"День {c}")
