@@ -1,0 +1,11 @@
+income = float(input("Введите прибыль "))
+costs = float(input("Введите издержки "))
+if income > costs:
+    print(f"Выработаете в плюс")
+    profit = (income / costs)
+    print(f"Рентальность - {profit}")
+    employees = int(input("Введите колличество сотрудников "))
+    employeeprofit = (income / employees)
+    print(f"Прибыль на сотрудника - {employeeprofit}")
+else:
+    print ("Фирма работает в убыток")
